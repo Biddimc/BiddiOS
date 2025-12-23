@@ -16,7 +16,7 @@ local playing = false
 local queue = {}
 local now_playing = nil
 local looping = 0
-local volume = 1.5
+local volume = 2
 
 local playing_id = nil
 local last_download_url = nil
