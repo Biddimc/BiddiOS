@@ -123,6 +123,8 @@ function runApp(name)
         sleep(0.1)
         shell.run("wget https://raw.githubusercontent.com/Biddimc/BiddiOS/refs/heads/main/osapps/music.lua osapps/music.lua")
         sleep(0.1)
+        shell.run("wget https://raw.githubusercontent.com/SirEndii/Lua-Projects/refs/heads/master/src/installer.lua")
+        sleep(0.1)
         os.reboot()
         return
     end
@@ -225,6 +227,7 @@ if not ok then
     os.pullEvent("key")
     shell.run("shell")
 end
+
 
 
 
